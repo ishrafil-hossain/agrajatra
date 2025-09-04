@@ -5,8 +5,8 @@ import { Menu } from "lucide-react";
 import Sidebar from "@/components/custom/Sidebar";
 
 export const metadata: Metadata = {
-  title: "My App",
-  description: "Responsive Sidebar with shadcn",
+  title: "অগ্রযাত্রা - একসাথে এগিয়ে চলার অঙ্গীকার",
+  description: "অগ্রযাত্রা সমিতি একটি বিশ্বস্ত ও অগ্রগামী সংগঠন, যেখানে সঞ্চয়, সহযোগিতা এবং সম্মিলিত প্রচেষ্টার মাধ্যমে আমরা গড়ে তুলি সবার জন্য উজ্জ্বল ভবিষ্যৎ। একসাথে এগিয়ে চলার অঙ্গীকারই আমাদের শক্তি - Developed by Ishrafil.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

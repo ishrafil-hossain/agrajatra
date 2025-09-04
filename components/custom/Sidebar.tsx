@@ -12,7 +12,7 @@ export default function Sidebar({ onClick }: { onClick?: () => void }) {
         <h2 className="text-white text-xl font-bold">অগ্রযাত্রা</h2>
         <nav className="flex flex-col gap-3">
           <Link
-            href="/dashboard"
+            href="/"
             onClick={onClick}
             className="flex items-center gap-2 rounded-lg px-3 py-2 hover:text-primary hover:bg-gray-100 transition-all duration-300"
           >
@@ -27,6 +27,15 @@ export default function Sidebar({ onClick }: { onClick?: () => void }) {
           >
             <User className="h-5 w-5" />
             <span>My Profile</span>
+          </Link>
+
+          <Link
+            href="/manage-user"
+            onClick={onClick}
+            className="flex items-center gap-2 rounded-lg px-3 py-2 hover:text-primary hover:bg-gray-100 transition-all duration-300"
+          >
+            <User className="h-5 w-5" />
+            <span>Manage User</span>
           </Link>
         </nav>
       </div>
