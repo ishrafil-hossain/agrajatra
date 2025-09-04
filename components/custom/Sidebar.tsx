@@ -9,7 +9,7 @@ export default function Sidebar({ onClick }: { onClick?: () => void }) {
     <Card className="h-full lg:w-64 p-4 flex flex-col justify-between shadow-md bg-primary rounded-none border-0">
       {/* Top Section */}
       <div className="space-y-4 text-white">
-        <h2 className="text-white text-xl font-bold">Menu</h2>
+        <h2 className="text-white text-xl font-bold">অগ্রযাত্রা</h2>
         <nav className="flex flex-col gap-3">
           <Link
             href="/dashboard"
