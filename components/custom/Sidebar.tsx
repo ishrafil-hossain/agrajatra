@@ -21,6 +21,15 @@ export default function Sidebar({ onClick }: { onClick?: () => void }) {
           </Link>
 
           <Link
+            href="/overview"
+            onClick={onClick}
+            className="flex items-center gap-2 rounded-lg px-3 py-2 hover:text-primary hover:bg-gray-100 transition-all duration-300"
+          >
+            <LayoutDashboard className="h-5 w-5" />
+            <span>Overview</span>
+          </Link>
+
+          <Link
             href="/profile"
             onClick={onClick}
             className="flex items-center gap-2 rounded-lg px-3 py-2 hover:text-primary hover:bg-gray-100 transition-all duration-300"
